@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<h1>Welcome to Sriayur E-commerce web site building in progress version 1.0!</h1>
+<h1>Welcome to Sriayur E-commerce web site build in progress version 1.0!</h1>
 
 </body>
 </html>
