@@ -46,6 +46,7 @@
 				<configuration>
 					<release>16</release>
 				</configuration>
+				
 			</plugin>
 			<plugin>
 				<artifactId>maven-war-plugin</artifactId>
