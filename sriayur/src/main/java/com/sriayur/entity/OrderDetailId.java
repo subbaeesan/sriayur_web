@@ -6,6 +6,10 @@ package com.sriayur.entity;
  */
 public class OrderDetailId implements java.io.Serializable {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private Integer orderId;
 	private Integer productId;
 	private int quantity;

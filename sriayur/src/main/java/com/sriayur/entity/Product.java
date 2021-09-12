@@ -10,6 +10,10 @@ import java.util.Set;
  */
 public class Product implements java.io.Serializable {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private int productId;
 	private Category category;
 	private String productname;

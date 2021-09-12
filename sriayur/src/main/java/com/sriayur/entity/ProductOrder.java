@@ -10,6 +10,10 @@ import java.util.Set;
  */
 public class ProductOrder implements java.io.Serializable {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private int orderId;
 	private Customer customer;
 	private Date orderDate;
