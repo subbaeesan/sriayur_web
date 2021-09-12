@@ -15,9 +15,9 @@ public class UserDAOTest {
 	@Test
 	public void testCreateUsers() {
 		Users user1 = new Users();
-		user1.setEmail("subbaeesan@hotmail.com");
-		user1.setFullName("Subbaeesan");
-		user1.setPassword("subbaeesan");
+		user1.setEmail("subbaeesan1@hotmail.com");
+		user1.setFullName("Subbaeesan1");
+		user1.setPassword("subbaeesan1");
 		
 	
 		EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("sriayur");
@@ -32,7 +32,14 @@ public class UserDAOTest {
 		entityManager.close();
 		entityManagerFactory.close();
 		
+		assertTrue(user1.getUserId() > 0);
 		
+		
+		
+	}
+	
+	@Test
+	public void testCreateUserFieldNotSet() {
 		
 	}
 
