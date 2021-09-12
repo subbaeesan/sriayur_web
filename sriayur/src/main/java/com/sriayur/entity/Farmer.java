@@ -7,7 +7,7 @@ package com.sriayur.entity;
 public class Farmer implements java.io.Serializable {
 
 	private int farmerId;
-	private Farmer farmer;
+	private Farmer farmer1;
 	private String farmername;
 	private String description;
 	private int productId;
@@ -17,18 +17,18 @@ public class Farmer implements java.io.Serializable {
 	}
 
 	public Farmer(Farmer farmer, String farmername, String description, int productId) {
-		this.farmer = farmer;
+		this.farmer1 = farmer;
 		this.farmername = farmername;
 		this.description = description;
 		this.productId = productId;
 	}
 
-	public Farmer(Farmer farmer, String farmername, String description, int productId, Farmer farmer) {
-		this.farmer = farmer;
+	public Farmer(Farmer farmer, String farmername, String description, int productId, Farmer farmer1) {
+		this.farmer1 = farmer1;
 		this.farmername = farmername;
 		this.description = description;
 		this.productId = productId;
-		this.farmer = farmer;
+		this.farmer1 = farmer1;
 	}
 
 	public int getFarmerId() {
@@ -39,12 +39,12 @@ public class Farmer implements java.io.Serializable {
 		this.farmerId = farmerId;
 	}
 
-	public Farmer getFarmer() {
-		return this.farmer;
+	public Farmer getFarmer1() {
+		return this.farmer1;
 	}
 
-	public void setFarmer(Farmer farmer) {
-		this.farmer = farmer;
+	public void setFarmer1(Farmer farmer) {
+		this.farmer1 = farmer;
 	}
 
 	public String getFarmername() {
@@ -72,11 +72,11 @@ public class Farmer implements java.io.Serializable {
 	}
 
 	public Farmer getFarmer() {
-		return this.farmer;
+		return this.farmer1;
 	}
 
 	public void setFarmer(Farmer farmer) {
-		this.farmer = farmer;
+		this.farmer1 = farmer;
 	}
 
 }
