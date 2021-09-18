@@ -59,13 +59,13 @@ public class UserDAOTest {
 	
 	@Test(expected=PersistenceException.class)
 	public void testCreateUserFieldNotSet() {
-		Users user1 = new Users();
+	
 				
 	
 		//EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("sriayur");
 		//EntityManager entityManager = entityManagerFactory.createEntityManager();
 		
-		UserDAO userDAO = new UserDAO(entityManager);
+		Users user1 = new Users();
 		user1 = userDAO.create(user1);
 		
 		
@@ -73,8 +73,28 @@ public class UserDAOTest {
 		
 		//entityManager.close();
 		//entityManagerFactory.close();
+	
+	}
+	
+	
+	@Test
+	
+	public void testUpdateUsers() {
 		
-		assertTrue(user1.getUserId() > 0);
+		Users user = new Users();
+		user.setUserId(1);
+		user.setEmail("subbaeesan11@hotmail.com");
+		user.setFullName("Subbaeesan11");
+		user.setPassword("12345678");
+		
+		user = userDAO.update(user);
+		String expected = "12345678";
+		String actual = user.getPassword();
+		
+		assertEquals(expected, actual);
+		
+		
+		
 		
 	}
 	
