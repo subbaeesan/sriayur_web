@@ -26,5 +26,19 @@ public class JpaDAO<T> {
 		return t;
 		
 	}
+	
+public T update(T entity) {
+		
+		entityManager.getTransaction().begin();
+		
+	
+		
+		entityManager.getTransaction().commit();
+		
+		return entity;
+	
+	
+	
+	
 
 }
