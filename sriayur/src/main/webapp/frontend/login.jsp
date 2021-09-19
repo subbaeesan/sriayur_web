@@ -10,7 +10,7 @@
 	<div align="center">
 		<h1>Welcome to Sriayur Organic Ecommerce!</h1>
 
-		<h2>Quality and pure Organic product!</h2>
+		<h2>Quality and Pure Organic product!</h2>
 	</div>
 	<div align="center">
 
