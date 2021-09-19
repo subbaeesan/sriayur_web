@@ -15,19 +15,47 @@
 <jsp:directive.include file="header.jsp" />
 
 
-
-
 <div align="center">
 
-<br/><br/>
-<h1> This is main content</h1>
-<h2> New Products</h2>
-<h3>Bes-Selling Products</h3>
-<h4>Most-Favored Products</h4>
-<br/><br/>
+<h2>Quick Actions:</h2>
+<b>
+<a href="create product"> New Product</a> &nbsp;
+<a href="create user"> New User</a> &nbsp;
+<a href="create customer"> New Customer</a> &nbsp;
+<a href="create category"> New Category</a> &nbsp;
+</b>
+
 </div>
 
 
+<div align="center">
+<hr width="60" />
+<h2>Recent Sales:</h2>
+<b>
+
+</b>
+
+</div>
+
+<div align="center">
+<hr width="60" />
+<h2>Recent Reviews:</h2>
+<b>
+
+</b>
+
+</div>
+
+
+<div align="center">
+<hr width="60" />
+<h2>Generate Reports:</h2>
+<b>
+
+</b>
+
+</div>
+<hr width="60" />
 <jsp:directive.include file="footer.jsp" />
 
 </body>
