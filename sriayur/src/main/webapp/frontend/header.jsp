@@ -3,7 +3,7 @@
 
 	<div>
 
-		<img src="images/sriayur.png" />
+		<img src="../images/sriayur.png" />
 
 	</div>
 
