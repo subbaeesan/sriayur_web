@@ -17,7 +17,7 @@ public class UserDAOTest {
 		Users user1 = new Users();
 		user1.setEmail("subbaeesan1@hotmail.com");
 		user1.setFullName("Subbaeesan1");
-		user1.setPassword("subbaeesan1");
+		user1.setPassword("subbaeesan2");
 		
 	
 		EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("sriayur");
