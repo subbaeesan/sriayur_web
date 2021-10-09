@@ -16,7 +16,7 @@ public class UserDAOTest {
 	public void testCreateUsers() {
 		Users user1 = new Users();
 		user1.setEmail("subbaeesan1@hotmail.com");
-		user1.setFullName("Subbaeesan1");
+		user1.setFullName("Subbaeesan2");
 		user1.setPassword("subbaeesan1");
 		
 	
